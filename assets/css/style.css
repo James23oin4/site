@@ -12,6 +12,37 @@
     --akira: 'Akira Expanded Demo', sans-serif;
 }
 
+.faq-item {
+    margin: 20px 0;
+}
+
+.toggle-btn {
+    background: #f1f1f1;
+    color: #333;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.faq-content p {
+    padding: 10px;
+}
+
+.active .faq-content {
+    max-height: 500px;
+    transition: max-height 0.2s ease-in;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -144,4 +175,7 @@ body {
     width: 25%;
     vertical-align: top;
     margin-bottom: 50px;
+}
+.dropDown {
+    position: static;
 }

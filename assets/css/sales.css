@@ -1,0 +1,67 @@
+.intro {
+    padding: 8% 0 0 0;
+}
+
+.notifcation-sale {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-radius: 12px;
+    border: 3px solid blueviolet;
+    box-shadow: 5px 5px 0 #8a2be2;
+    transition: all .3s ease-in-out;
+    margin-bottom: 1.5rem;
+    transition: all .3s ease-in-out;
+    position: relative;
+    display: flex;
+}
+
+.sale-text {
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 0 2rem 0 0;
+}
+
+#sale-btn {
+    display: none;
+}
+
+.sale-code {
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 1, 34);
+    /*  position: absolute; */
+    margin-left: 2.5px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+    padding: 3px 3.2px;
+}
+
+.sale-code:focus {
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        padding: 15% 0 0 0;
+    }
+
+    .sale-code:hover {
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .intro {
+        padding: 21% 0 0 0;
+    }
+
+    .sale-code:hover {
+        background-color: blueviolet;
+    }
+}
